@@ -5,9 +5,7 @@ A Yeoman generator for React & Redux for projects basing on the ducks structure 
 
 This generator works for vertically integrated React and Redux projects. The
 sub-generator will create modules/features for you with a smaller version of the
-ducks structure. Each module is self-contained, although there may be a
-base that is `common` to everything else.
-
+ducks structure. Each module is self-contained.
 ## Installation
 
 ### Yeoman
