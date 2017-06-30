@@ -1,18 +1,12 @@
 # React & Redux Duck Structure Generator 
 
 
-A Yeoman generator for React & Redux for projects basing on the duck structure relying on routes.
-
-Of those out there, the React and Redux templates have a horizontal structure for their projects.
-This means all of your elements belong in the same folder, i.e. your components
-go in a `components` folder.
+A Yeoman generator for React & Redux for projects basing on the ducks structure structured on routes.
 
 This generator works for vertically integrated React and Redux projects. The
-sub-generator will create modules for you with a smaller version of the
-horizontal structure. Each module is self-contained, although there may be a
+sub-generator will create modules/features for you with a smaller version of the
+ducks structure. Each module is self-contained, although there may be a
 base that is `common` to everything else.
-
-This repo is copied from [React/Flux Vertical generator](https://github.com/jermspeaks/generator-react-vertical).
 
 ## Installation
 
@@ -24,18 +18,18 @@ For this generator to work, [Yeoman](https://github.com/yeoman/yo) must be globa
 npm install -g yo
 ```
 
-Then you can install this `generator-react-redux-modules` module. I do not maintain [generator-react-redux](https://github.com/mohebifar/generator-react-redux).
+Then you can install this `react-redux-duck-structure-generator` module.
 
 ```bash
-npm install -g generator-react-redux-modules
+npm install -g react-redux-duck-structure-generator
 ```
 
 ## Base Generator
 
-Creates the base project. Loosely based off [React-starter-kit](https://github.com/kriasoft/react-starter-kit).
+Creates the base project. Loosely based off [React-starter-kit](https://github.com/kriasoft/react-starter-kit). The entrie app is not ducks structure yet.
 
 ```bash
-yo react-redux-modules
+yo react-redux-duck-structure-generator
 ```
 
 This will compile base files, including the Source, and Tools folders. (tests pending)
@@ -57,10 +51,10 @@ help you through developing new modules, components, etc.
 
 ### Module
 
-When you need to start creating new modules, simple use the sub-generator `module`.
+When you need to start creating new modules/features, simple use the sub-generator `module`.
 
 ```bash
-yo react-redux-modules:module [options] <moduleName>
+yo react-redux-duck-structure-generator:module [options] <moduleName>
 ```
 
 Within the module sub-generator, the following default files are generated for you.
@@ -86,7 +80,7 @@ The following command will generate the following:
 
 ```bash
 yo react-redux-modules:module auth
-# Generates the auth folder with all necessary files
+# Generates the auth folder feature with all necessary files
 ```
 
 ### Component
