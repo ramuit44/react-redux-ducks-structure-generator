@@ -1,6 +1,6 @@
 {
   "name": "react-redux-duck-structure-generator",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "React with Redux code generator using Yeoman",
   "main": "app/index.js",
   "scripts": {
