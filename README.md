@@ -1,4 +1,4 @@
-# React & Redux Duck Structure Generator 
+# React & Redux ducks Structure Generator 
 
 
 A Yeoman generator for React & Redux for projects basing on the ducks structure structured on routes.
@@ -16,10 +16,10 @@ For this generator to work, [Yeoman](https://github.com/yeoman/yo) must be globa
 npm install -g yo
 ```
 
-Then you can install this `react-redux-duck-structure-generator` module.
+Then you can install this `react-redux-ducks-structure-generator` module.
 
 ```bash
-npm install -g react-redux-duck-structure-generator
+npm install -g react-redux-ducks-structure-generator
 ```
 
 ## Base Generator
@@ -27,7 +27,7 @@ npm install -g react-redux-duck-structure-generator
 Creates the base project. Loosely based off [React-starter-kit](https://github.com/kriasoft/react-starter-kit). The entrie app is not ducks structure yet.
 
 ```bash
-yo react-redux-duck-structure-generator
+yo react-redux-ducks-structure-generator
 ```
 
 This will compile base files, including the Source, and Tools folders. (tests pending)
@@ -52,7 +52,7 @@ help you through developing new modules, components, etc.
 When you need to start creating new modules/features, simple use the sub-generator `module`.
 
 ```bash
-yo react-redux-duck-structure-generator:module [options] <moduleName>
+yo react-redux-ducks-structure-generator:module [options] <moduleName>
 ```
 
 Within the module sub-generator, the following default files are generated for you.
